@@ -2,6 +2,7 @@
 
 from __future__ import print_function
 import time
+import math
 from dronekit import connect, VehicleMode, LocationGlobalRelative
 
 def get_distance_metres(aLocation1, aLocation2):
